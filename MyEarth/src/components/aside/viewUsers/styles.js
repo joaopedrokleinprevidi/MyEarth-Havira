@@ -97,6 +97,10 @@ export const AsideViewListWrapperElement = styled(WrapperElement)`
         background-color: var(--color-buttons-active);
         border: 1px solid var(--color-text-01);
     }
+
+    @media ${device.MinMobile} and (${device.MaxMobile}) {
+        height: 35vh;
+    }
 `
 
 export const AsideViewListButtonElement = styled(ButtonElement)`
